@@ -390,7 +390,7 @@
 						TestTargetID = 13B07F861A680F5B00A75B9A;
 					};
 					13B07F861A680F5B00A75B9A = {
-						DevelopmentTeam = AX2XXMT4GA;
+						DevelopmentTeam = 8MZGC58MWQ;
 					};
 				};
 			};
@@ -653,6 +653,7 @@
 				INFOPLIST_FILE = MyStuff/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = org.himo.reactjs.native.example.MyStuff;
 				PRODUCT_NAME = MyStuff;
 				PROVISIONING_PROFILE = "";
 			};
@@ -672,6 +673,7 @@
 				INFOPLIST_FILE = MyStuff/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = org.himo.reactjs.native.example.MyStuff;
 				PRODUCT_NAME = MyStuff;
 				PROVISIONING_PROFILE = "";
 			};

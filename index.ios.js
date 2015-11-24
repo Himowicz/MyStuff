@@ -21,7 +21,7 @@ import {indexStyles} from './src/styles';
 // LESSON Switching to the real app
 
 // EDIT HERE
-const initialRouteName = 'Hello World'; // My Stuff!
+const initialRouteName = 'My Stuff!'; // My Stuff!
 // DONE EDITING
 
 function prepareStore() {
@@ -116,7 +116,7 @@ class MyStuff extends Component {
             />;
 
           // LESSON: Add storage by wrapping this in <StorageMonitor/>
-
+          return <StorageMonitor>{navigator}</StorageMonitor>;
           return (
             navigator
           );

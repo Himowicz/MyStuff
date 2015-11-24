@@ -52,6 +52,7 @@ import SelectImage from './SelectImage';
         <View style={styles.innerScroller}>
 
           <Text style={styles.instructions}>Name your item below.</Text>
+          <SelectImage />
 
           <MKTextField
             ref='nameInput'

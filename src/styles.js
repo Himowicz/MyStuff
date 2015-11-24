@@ -1,7 +1,7 @@
 import React, {AppRegistry, StyleSheet, Text, View, Component, Image, Navigator, PixelRatio, TouchableOpacity} from 'react-native';
 
 const brandColour = '#F15A24';
-const fontFamily = 'System';
+const fontFamily = 'HelveticaNeue';
 
 module.exports = {
   indexStyles: StyleSheet.create({
